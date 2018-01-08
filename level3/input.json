@@ -1,0 +1,104 @@
+{
+  "parcels": [
+    {
+      "identifier": "8869423b",
+      "length": 10.0,
+      "width": 15.0,
+      "height": 40.0,
+      "weight": 5.0
+    },
+    {
+      "identifier": "f7710613",
+      "length": 12.0,
+      "width": 12.0,
+      "height": 14.0,
+      "weight": 10.0
+    },
+    {
+      "identifier": "28b6d249",
+      "length": 30.0,
+      "width": 50.0,
+      "height": 45.0,
+      "weight": 25.0
+    },
+    {
+      "identifier": "93b3f0dd",
+      "length": 90.0,
+      "width": 170.0,
+      "height": 120.0,
+      "weight": 32.0
+    },
+    {
+      "identifier": "eeb1fc64",
+      "length": 350.0,
+      "width": 200.0,
+      "height": 100.0,
+      "weight": 37.0
+    },
+    {
+      "identifier": "22c6979f",
+      "length": 20.0,
+      "width": 4.0,
+      "height": 90.0,
+      "weight": 19.0
+    },
+    {
+      "identifier": "130b4a39",
+      "length": 150.0,
+      "width": 270.0,
+      "height": 90.0,
+      "weight": 50.0
+    },
+    {
+      "identifier": "9e5b79a7",
+      "length": 70.0,
+      "width": 65.0,
+      "height": 55.0,
+      "weight": 28.0
+    },
+    {
+      "identifier": "cb7a640d",
+      "length": 190.0,
+      "width": 145.0,
+      "height": 300.0,
+      "weight": 77.0
+    },
+    {
+      "identifier": "768a1d1f",
+      "length": 58.0,
+      "width": 95.5,
+      "height": 130.0,
+      "weight": 63.0
+    }
+  ],
+
+  "vehicles": [
+    {
+      "name": "X-WING",
+      "capacity": {
+        "length": 400.0,
+        "width": 300.0,
+        "height": 170.0,
+        "weight": 95.0
+      }
+    },
+    {
+      "name": "TIE",
+      "capacity": {
+        "length": 200.0,
+        "width": 350.0,
+        "height": 220.0,
+        "weight": 80.0
+      }
+    },
+    {
+      "name": "AT-ACT",
+      "capacity": {
+        "length": 900.0,
+        "width": 600.0,
+        "height": 1200.0,
+        "weight": 400.0
+      }
+    }
+  ]
+}

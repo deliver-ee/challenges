@@ -1,0 +1,248 @@
+{
+  "couriers": [
+    {
+      "id": 1,
+      "first_name": "Obi-Wan",
+      "last_name": "Kenobi",
+      "schedule": {
+        "open_at": "08h00",
+        "close_at": "19h00"
+      },
+      "zones": [
+        "75001",
+        "75006",
+        "75116",
+        "75017"
+      ]
+    },
+    {
+      "id": 2,
+      "first_name": "Han",
+      "last_name": "Solo",
+      "schedule": {
+        "open_at": "10h00",
+        "close_at": "21h00"
+      },
+      "zones": [
+        "75006",
+        "75007",
+        "75010",
+        "75118",
+        "75017"
+      ]
+    },
+    {
+      "id": 3,
+      "first_name": "Jango",
+      "last_name": "Fett",
+      "schedule": {
+        "open_at": "06h00",
+        "close_at": "17h00"
+      },
+      "zones": [
+        "75001",
+        "75006",
+        "75008",
+        "75010",
+        "75012",
+        "75017",
+        "75018"
+      ]
+    },
+    {
+      "id": 4,
+      "first_name": "Boba",
+      "last_name": "Fett",
+      "schedule": {
+        "open_at": "12h45",
+        "close_at": "23h45"
+      },
+      "zones": [
+        "75006",
+        "75007",
+        "75008",
+        "75017"
+      ]
+    },
+    {
+      "id": 5,
+      "first_name": "Luke",
+      "last_name": "Skywalker",
+      "schedule": {
+        "open_at": "10h00",
+        "close_at": "21h00"
+      },
+      "zones": [
+        "75003",
+        "75006",
+        "75008",
+        "75012",
+        "75017",
+        "75018",
+        "75116"
+      ]
+    },
+    {
+      "id": 6,
+      "first_name": "Anakin",
+      "last_name": "Skywalker",
+      "schedule": {
+        "open_at": "18h00",
+        "close_at": "23h00"
+      },
+      "zones": [
+        "75003",
+        "75008",
+        "75010",
+        "75017"
+      ]
+    }
+  ],
+
+  "deliveries": [
+    {
+      "id": "A",
+      "status": "pending",
+      "start_at": "2017-12-24T18:50:00+01:00",
+      "end_at": "2017-12-24T21:50:00+01:00",
+      "pick_up": {
+        "address": "26 Rue Brey",
+        "zipcode": "75017",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "76 Rue des Tournelles",
+        "zipcode": "75003",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "B",
+      "status": "pending",
+      "start_at": "2017-12-24T08:55:00+01:00",
+      "end_at": "2017-12-24T11:55:00+01:00",
+      "pick_up": {
+        "address": "37 Rue Bonaparte",
+        "zipcode": "75006",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "99 Rue de la Pompe",
+        "zipcode": "75116",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "C",
+      "status": "pending",
+      "start_at": "2017-12-24T14:05:00+01:00",
+      "end_at": "2017-12-24T17:05:00+01:00",
+      "pick_up": {
+        "address": "Cours St Emilion",
+        "zipcode": "75012",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "6 Rue Marc Seguin",
+        "zipcode": "75018",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "D",
+      "status": "pending",
+      "start_at": "2017-12-24T09:30:00+01:00",
+      "end_at": "2017-12-24T12:30:00+01:00",
+      "pick_up": {
+        "address": "42 Rue de Moscou",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "26/30 Avenue des Ternes",
+        "zipcode": "75017",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "E",
+      "status": "pending",
+      "start_at": "2017-12-24T19:30:00+01:00",
+      "end_at": "2017-12-24T22:30:00+01:00",
+      "pick_up": {
+        "address": "52 rue François 1er",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "17 Rue de Bourgogne",
+        "zipcode": "75007",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "F",
+      "status": "pending",
+      "start_at": "2017-12-24T15:00:00+01:00",
+      "end_at": "2017-12-24T18:00:00+01:00",
+      "pick_up": {
+        "address": "24 boulevard Saint-Denis",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "8 Rue Tesson",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "G",
+      "status": "pending",
+      "start_at": "2017-12-24T07:30:00+01:00",
+      "end_at": "2017-12-24T10:30:00+01:00",
+      "pick_up": {
+        "address": "65 rue Jean Jacques Rousseau",
+        "zipcode": "75001",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "36 Rue des Petites Écuries",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR"
+      }
+    },
+    {
+      "id": "H",
+      "status": "pending",
+      "start_at": "2017-12-24T12:30:00+01:00",
+      "end_at": "2017-12-24T20:30:00+01:00",
+      "pick_up": {
+        "address": "52 rue d'amsterdam",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "drop_off": {
+        "address": "45 Rue des Saints-Pères",
+        "zipcode": "75006",
+        "city": "Paris",
+        "country": "FR"
+      }
+    }
+  ]
+}

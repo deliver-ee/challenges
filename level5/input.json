@@ -1,0 +1,218 @@
+{
+  "courier": {
+    "first_name": "Luke",
+    "last_name": "Skywalker",
+    "position": {
+      "description": "XVIe arrondissement",
+      "latitude": 48.8571205,
+      "longitude": 2.2732442
+    },
+    "summary": {
+      "overall_status": 0.84,
+      "assigned_job_count": 37,
+      "completed_job_count": 33,
+      "today": {
+        "pending_job_count": 4,
+        "current_job_count": 2,
+        "completed_job_count": 2
+      }
+    }
+  },
+  "assignments": [
+    {
+      "id": "e626dce4c8",
+      "status": "pending",
+      "metrics": {
+        "distance": 1.2,
+        "eta": 20
+      },
+      "mission": {
+        "description": "Ier arrondissement => Xe arrondissement",
+        "start_at": "2017-12-24T08:55:00+01:00",
+        "end_at": "2017-12-24T11:55:00+01:00",
+        "pick_up": {
+          "address": "65 rue Jean Jacques Rousseau",
+          "zipcode": "75001",
+          "city": "Paris",
+          "country": "FR",
+          "position": {
+            "latitude": 48.8647,
+            "longitude": 2.35068
+          }
+        },
+        "drop_off": {
+          "address": "36 Rue des Petites Écuries",
+          "zipcode": "75010",
+          "city": "Paris",
+          "country": "FR",
+          "position": {
+            "latitude": 48.87385,
+            "longitude": 2.35067
+          }
+        }
+      }
+    },
+    {
+      "id": "73ab96aab7",
+      "status": "pending",
+      "metrics": {
+        "distance": 2.1,
+        "eta": 53
+      },
+      "mission": {
+        "description": "VIIIe arrondissement => XVIIe arrondissement",
+        "start_at": "2017-12-24T09:30:00+01:00",
+        "end_at": "2017-12-24T12:30:00+01:00",
+        "pick_up": {
+          "address": "42 Rue de Moscou",
+          "zipcode": "75008",
+          "city": "Paris",
+          "country": "FR",
+          "position": {
+            "latitude": 48.88168,
+            "longitude": 2.32292
+          }
+        },
+        "drop_off": {
+          "address": "26/30 Avenue des Ternes",
+          "zipcode": "75017",
+          "city": "Paris",
+          "country": "FR",
+          "position": {
+            "latitude": 48.87869,
+            "longitude": 2.29478
+          }
+        }
+      }
+    },
+    {
+      "id": "8869423b",
+      "status": "pending",
+      "metrics": {
+        "distance": 6.4,
+        "eta": 75
+      },
+      "mission": {
+        "description": "XIIe arrondissement => XVIIIe arrondissement",
+        "start_at": "2017-12-24T14:05:00+01:00",
+        "end_at": "2017-12-24T17:05:00+01:00",
+        "pick_up": {
+          "address": "Cours St Emilion",
+          "zipcode": "75012",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "drop_off": {
+          "address": "6 Rue Marc Seguin",
+          "zipcode": "75018",
+          "city": "Paris",
+          "country": "FR"
+        }
+      }
+    },
+    {
+      "id": "93b3f0dd",
+      "status": "accepted",
+      "accepted_at": "2017-12-24T08:17:00+01:00",
+      "metrics": {
+        "distance": 3.9,
+        "eta": 25
+      },
+      "mission": {
+        "description": "XVIIIe arrondissement => XVIIe arrondissement",
+        "start_at": "2017-12-24T19:30:00+01:00",
+        "end_at": "2017-12-24T22:30:00+01:00",
+        "pick_up": {
+          "address": "52 rue François 1er",
+          "zipcode": "75008",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "drop_off": {
+          "address": "17 Rue de Bourgogne",
+          "zipcode": "75007",
+          "city": "Paris",
+          "country": "FR"
+        }
+      }
+    },
+    {
+      "id": "22c6979f",
+      "status": "accepted",
+      "accepted_at": "2017-12-24T09:54:00+01:00",
+      "metrics": {
+        "distance": 0.6,
+        "eta": 12
+      },
+      "mission": {
+        "description": "Xe arrondissement",
+        "start_at": "2017-12-24T15:00:00+01:00",
+        "end_at": "2017-12-24T18:00:00+01:00",
+        "pick_up": {
+          "address": "24 boulevard Saint-Denis",
+          "zipcode": "75010",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "drop_off": {
+          "address": "8 Rue Tesson",
+          "zipcode": "75010",
+          "city": "Paris",
+          "country": "FR"
+        }
+      }
+    },
+    {
+      "id": "9e5b79a7",
+      "status": "accepted",
+      "accepted_at": "2017-12-24T11:14:00+01:00",
+      "metrics": {
+        "distance": 9.1,
+        "eta": 58
+      },
+      "mission": {
+        "description": "XVIIIe arrondissement => VIe arrondissement",
+        "start_at": "2017-12-24T12:30:00+01:00",
+        "end_at": "2017-12-24T20:30:00+01:00",
+        "pick_up": {
+          "address": "52 rue d'amsterdam",
+          "zipcode": "75008",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "drop_off": {
+          "address": "45 Rue des Saints-Pères",
+          "zipcode": "75006",
+          "city": "Paris",
+          "country": "FR"
+        }
+      }
+    },
+    {
+      "id": "cb7a640d",
+      "status": "accepted",
+      "accepted_at": "2017-12-23T19:14:00+01:00",
+      "metrics": {
+        "distance": 7.7,
+        "eta": 37
+      },
+      "mission": {
+        "description": "VIe arrondissement => XVIe arrondissement",
+        "start_at": "2017-12-24T07:30:00+01:00",
+        "end_at": "2017-12-24T10:30:00+01:00",
+        "pick_up": {
+          "address": "37 Rue Bonaparte",
+          "zipcode": "75006",
+          "city": "Paris",
+          "country": "FR"
+        },
+        "drop_off": {
+          "address": "99 Rue de la Pompe",
+          "zipcode": "75116",
+          "city": "Paris",
+          "country": "FR"
+        }
+      }
+    }
+  ]
+}

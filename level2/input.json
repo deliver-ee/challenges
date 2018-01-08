@@ -1,0 +1,253 @@
+{
+  "couriers": [
+    {
+      "id": 1,
+      "first_name": "Obi-Wan",
+      "last_name": "Kenobi",
+      "position" : {
+        "latitude": 48.8707718,
+        "longitude": 2.3609196
+      }
+    },
+    {
+      "id": 2,
+      "first_name": "Han",
+      "last_name": "Solo",
+      "position" : {
+        "latitude": 48.8657083,
+        "longitude": 2.298345
+      }
+    },
+    {
+      "id": 3,
+      "first_name": "Jango",
+      "last_name": "Fett",
+      "position" : {
+        "latitude": 48.8495108,
+        "longitude": 2.3304249
+      }
+    },
+    {
+      "id": 4,
+      "first_name": "Boba",
+      "last_name": "Fett",
+      "position" : {
+        "latitude": 48.8046195,
+        "longitude": 2.3949717
+      }
+    },
+    {
+      "id": 5,
+      "first_name": "Luke",
+      "last_name": "Skywalker",
+      "position" : {
+        "latitude": 48.8571205,
+        "longitude": 2.2732442
+      }
+    },
+    {
+      "id": 6,
+      "first_name": "Anakin",
+      "last_name": "Skywalker",
+      "position" : {
+        "latitude": 48.8390733,
+        "longitude": 2.3259813
+      }
+    }
+  ],
+
+  "deliveries": [
+    {
+      "status": "pending",
+      "pick_up": {
+        "address": "26 Rue Brey",
+        "zipcode": "75017",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8747991,
+          "longitude": 2.2914288
+        }
+      },
+      "drop_off": {
+        "address": "76 Rue des Tournelles",
+        "zipcode": "75003",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8602819,
+          "longitude": 2.3675525
+        }
+      },
+      "courier_id": null
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "37 Rue Bonaparte",
+        "zipcode": "75006",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.85457,
+          "longitude": 2.33374
+        }
+      },
+      "drop_off": {
+        "address": "99 Rue de la Pompe",
+        "zipcode": "75116",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.865,
+          "longitude": 2.2785099
+        }
+      },
+      "courier_id": 1
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "Cours St Emilion",
+        "zipcode": "75012",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8332405090332,
+          "longitude": 2.385930061340332
+        }
+      },
+      "drop_off": {
+        "address": "6 Rue Marc Seguin",
+        "zipcode": "75018",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.89188,
+          "longitude": 2.36456
+        }
+      },
+      "courier_id": 2
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "42 Rue de Moscou",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.88168,
+          "longitude": 2.32292
+        }
+      },
+      "drop_off": {
+        "address": "26/30 Avenue des Ternes",
+        "zipcode": "75017",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.87869,
+          "longitude": 2.29478
+        }
+      },
+      "courier_id": 2
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "52 rue François 1er",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.86914,
+          "longitude": 2.30315
+        }
+      },
+      "drop_off": {
+        "address": "17 Rue de Bourgogne",
+        "zipcode": "75007",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.85893,
+          "longitude": 2.318
+        }
+      },
+      "courier_id": 3
+    },
+    {
+      "status": "retrieved",
+      "pick_up": {
+        "address": "24 boulevard Saint-Denis",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8697299,
+          "longitude": 2.35325
+        }
+      },
+      "drop_off": {
+        "address": "8 Rue Tesson",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.87099,
+          "longitude": 2.3713
+        }
+      },
+      "courier_id": 4
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "65 rue Jean Jacques Rousseau",
+        "zipcode": "75001",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8647,
+          "longitude": 2.35068
+        }
+      },
+      "drop_off": {
+        "address": "36 Rue des Petites Écuries",
+        "zipcode": "75010",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.87385,
+          "longitude": 2.35067
+        }
+      },
+      "courier_id": 5
+    },
+    {
+      "status": "assigned",
+      "pick_up": {
+        "address": "52 rue d'amsterdam",
+        "zipcode": "75008",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.8792,
+          "longitude": 2.32709
+        }
+      },
+      "drop_off": {
+        "address": "45 Rue des Saints-Pères",
+        "zipcode": "75006",
+        "city": "Paris",
+        "country": "FR",
+        "position": {
+          "latitude": 48.85553,
+          "longitude": 2.33129
+        }
+      },
+      "courier_id": 6
+    }
+  ]
+}
